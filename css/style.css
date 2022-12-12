@@ -9,14 +9,31 @@ body {
 font-family: 'Open Sans', sans-serif;
 }
 
+
+
 img {
     max-width: 100%;    
+    height: 100px;
   }
+
 
   .container{
     background-color: black;
     color: white;
+    width: 400px;
+    float: left;
+    margin: 40px 40px;
+  }
+
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .thumb{
     float: left;
   }
 
-  
+
+
