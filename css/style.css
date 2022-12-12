@@ -20,8 +20,8 @@ img {
     max-width: 100%;
   }
 
-  .sezione-top:last-child{
-    margin right: 0;
+  .last{
+    margin-right: 0;
   }
 
 
@@ -30,8 +30,7 @@ img {
     color: white;
     width: 30%;
     float: left;
-    margin: 1%;
-    
+    margin: 1.6%    
   }
 
   .container::after {
@@ -43,6 +42,12 @@ img {
   .thumb{
     float: left;
   }
+
+  .thumb-info{
+    display: inline-block;
+    margin: 5px 10px;
+  }
+
 
 
 
