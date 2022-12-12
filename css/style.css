@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Jost', sans-serif;
-    font-size: 18px;
+    font-size: px;
 }
 
 h1{
@@ -45,15 +45,9 @@ img {
     color: white;
     width: 25%;
     float: left;
-    margin: 1% 4.1%;   
+    margin-left: 6%;  
      
     
-  }
-
-  .c {
-    content: "";
-    display: table;
-    clear: both;
   }
 
   .thumb{
@@ -63,6 +57,7 @@ img {
   .thumb-info{
     display: inline-block;
     margin: 5px 10px;
+    float: left;
 
   }
 
@@ -70,8 +65,8 @@ img {
     color: aqua;
   }
 
-  .bottom{
-    margin-top: 50px;
+  section{
+    margin-top: 60px;
   }
 
 
