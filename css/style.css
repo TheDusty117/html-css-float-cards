@@ -16,13 +16,22 @@ img {
     height: 100px;
   }
 
+  .section{
+    max-width: 100%;
+  }
+
+  .sezione-top:last-child{
+    margin right: 0;
+  }
+
 
   .container{
     background-color: black;
     color: white;
-    width: 400px;
+    width: 30%;
     float: left;
-    margin: 40px 40px;
+    margin: 1%;
+    
   }
 
   .container::after {
